@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.header{
+    min-height: 100vh;
+    min-width: 100%;
+    background-image: url(../images/pexels-yasar-arafath-596712.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav img{
+    width: 50px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+.nav-links ul li::after{
+    content:'';
+    width:  0%;
+    height: 2px;
+    background: black;
+    display:block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text{
+     width: 90%;
+     color: rgb(0, 0, 0);
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     text-align: center;
+}
+.text h1{
+    font-size: 60px;
+    color: black;
+}
+.text p{
+    font-size: 20px;
+    margin: 10px 0 40 px;
+    color: black;
+}
+.hero{
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+    border:1px solid black;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.header1{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.tree{
+    text-align: center;
+}
+.tree image{
+    max-width: 10%;
+}
+.tree image{
+    text-replace: background-image;
+}

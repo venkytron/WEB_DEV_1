@@ -1,0 +1,15 @@
+%Question3_and_4
+u=1;
+v=3;
+a=(4*u)/(3*v)
+b=(2*v^-2)/(u+v)^2
+c=v^3/(v^3-u^3)
+d=(4/3)*pi*v^2
+e=u*sqrt(v)+1
+f=log10((v+u)/(v-u))
+disp(a)
+disp(b)
+disp(c)
+disp(d)
+disp(e)
+disp(f)
